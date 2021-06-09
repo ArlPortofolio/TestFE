@@ -1,0 +1,8 @@
+section {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(247, 18, 18);
+  margin-left: 12%;
+  padding: 5px;
+}
