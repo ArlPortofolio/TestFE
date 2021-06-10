@@ -63,6 +63,10 @@
       .card2 {
         margin: 0;
       }
+
+      .card2:hover {
+        margin-top: 20px;
+      }
     </style>
   </head>
   <body>
@@ -87,7 +91,7 @@
               <li>10 Page</li>
               <li>100 Mb this page</li>
             </ul>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary" onclick="explore()">Go somewhere</a>
           </div>
         </div>
 
@@ -105,7 +109,7 @@
               <li>10 Page</li>
               <li>100 Mb this page</li>
             </ul>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary" onclick="explore()">Go somewhere</a>
           </div>
         </div>
 
@@ -123,7 +127,7 @@
               <li>10 Page</li>
               <li>100 Mb this page</li>
             </ul>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary" onclick="explore()">Go somewhere</a>
           </div>
         </div>
       </div>
@@ -151,7 +155,11 @@
       </div>
     </section>
 
-    <script src="JS/script.js"></script>
+    <script>
+      function explore() {
+        alert("success");
+      }
+    </script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
